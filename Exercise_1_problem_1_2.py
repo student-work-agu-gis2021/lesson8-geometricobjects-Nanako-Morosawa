@@ -14,7 +14,7 @@ def create_point_geom(x_coord,y_coord):
   """ 
   parameter : x,y
   Purpose   : create Point 
-  """
+  """ 
   point= Point(x_coord,y_coord)
   return(point)
 # Test your function by running these code cells:
