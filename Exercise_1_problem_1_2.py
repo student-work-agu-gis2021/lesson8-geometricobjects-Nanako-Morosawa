@@ -79,7 +79,7 @@ except Exception as e:
 # YOUR CODE HERE 4 to define create_poly_geom()
 def create_poly_geom(coords):
   """
-  prameter : coords
+  parameter : coords
   Purpose  : create Polygon 
   """
   assert type(coords) is list, "Input should be a list!"
@@ -147,7 +147,7 @@ try:
 except AssertionError:
     print("Found and assertion error. Geometry -check works correctly.")
 except Exception as e:
-    raise e
+    raise e 
 
 
 # 2: Create a function called `get_area()` with one parameter called `polygon`. Function should take a Shapely's Polygon -object as input and returns the area of that geometry. 
