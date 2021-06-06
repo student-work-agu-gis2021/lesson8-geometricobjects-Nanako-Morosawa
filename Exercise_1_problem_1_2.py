@@ -59,7 +59,7 @@ print(line1.geom_type)
 
 # CODE FOR TESTING YOUR SOLUTION
 try:
-    # Pass something else than a list
+    # Pass something else than a list 
     create_line_geom("Give me a line!")
 except AssertionError:
     print("Found an assertion error. List check works correctly.")
