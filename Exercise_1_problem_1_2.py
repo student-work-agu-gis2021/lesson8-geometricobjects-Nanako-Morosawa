@@ -13,7 +13,7 @@ from shapely.geometry import Point, LineString, Polygon
 def create_point_geom(x_coord,y_coord):
   """
   parameter : x,y
-  Purpose   : create Point
+  Purpose   : create Point 
   """
   point= Point(x_coord,y_coord)
   return(point)
