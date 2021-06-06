@@ -10,7 +10,7 @@
 
 # YOUR CODE HERE 1 to read the file
 #raise NotImplementedError()
-import pandas as pd 
+import pandas as pd  
 data=pd.read_table("data/travelTimes_2015_Helsinki.txt",sep=';')
 #Check how many rows and columns there are:
 data
