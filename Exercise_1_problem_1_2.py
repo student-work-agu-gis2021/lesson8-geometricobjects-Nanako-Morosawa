@@ -73,7 +73,7 @@ except Exception as e:
 #   - You should also check with `assert` that the input list contains **at least** three values. If not, return an Error message: `"Polygon object requires at least three Points!"`
 #   - Check the data type of the objects in the input list. All values in the input list should be tuples. If not, return an error message: "All list values should be coordinate tuples!" using assert.
 #   - **Optional:** Allow also an input containing a list of Shapely Point objects. If `coords` contains a list of Shapely Point objects, return a polygon based on these points. If the input is neither a list of tuples, nor a list of Points, return an appropriate error message using assert.
-#   
+#    
 
 
 # YOUR CODE HERE 4 to define create_poly_geom()
