@@ -127,7 +127,7 @@ from shapely.geometry import LineString
 for orig,dest in zip(orig_points,dest_points):
   line=LineString([data_orig,data_dest])
   lines.append(line)
-  
+
 # CODE FOR TESTING YOUR SOLUTION
 
 #Test that the list has correct number of LineStrings
@@ -140,7 +140,10 @@ assert len(lines) == len(data), "There should be as many lines as there are rows
 # 
 
 # YOUR CODE HERE 7 to find total length
-
+total_length=0.0
+for line in lines:
+  total_length+=line.length
+  
 # CODE FOR TESTING YOUR SOLUTION
 
 # This test print should print the total length of all lines
