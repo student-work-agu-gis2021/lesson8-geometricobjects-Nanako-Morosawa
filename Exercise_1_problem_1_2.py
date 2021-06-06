@@ -49,7 +49,7 @@ line1 = None
 line1=LineString([Point(45.2,22.34),Point(100.22,-3.20)])  
 
 # CODE FOR TESTING YOUR SOLUTION
-print(line1)
+print(line1) 
 
 # CODE FOR TESTING YOUR SOLUTION
 print(line1.geom_type)
