@@ -80,7 +80,7 @@ except Exception as e:
 def create_poly_geom(coords):
   """
   prameter : coords
-  Purpose  : create Polygon
+  Purpose  : create Polygon 
   """
   assert type(coords) is list, "Input should be a list!"
   assert len(coords)>=3,"Polygon object requires at least three Points!"
