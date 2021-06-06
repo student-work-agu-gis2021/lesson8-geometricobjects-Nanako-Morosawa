@@ -32,10 +32,10 @@ print(point1.geom_type)
 # 
 
 # YOUR CODE HERE 2 to define create_line_geom()
-def create_line_geom(points):
+def create_line_geom(points): 
   """
-  prameter : points
-  Purpose  : create line
+  parameter : points
+  Purpose   : create line
   """
   assert type(points)=="Input should be a list!"
   assert len(points)>=2,"LineString object requires at least two Points!"
